@@ -56,6 +56,12 @@
 			<version>${storm.version}</version>
 			<!-- keep storm out of the jar-with-dependencies -->
 			<scope>provided</scope>
+            <exclusions>
+            	<exclusion>
+            		<groupId>ring-cors</groupId>
+            		<artifactId>ring-cors</artifactId>
+            	</exclusion>
+            </exclusions>
 		</dependency>
 
 		<dependency>
