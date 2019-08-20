@@ -1,4 +1,4 @@
-# first-kafka-topology
+# Strom入门例子：first-kafka-topology
 My first topology project for studying Apache Storm and Kafka
 
 1. Running Topology on local cluster:
